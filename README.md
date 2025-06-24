@@ -13,13 +13,13 @@ Error Handling: Handles invalid inputs, permissions, and CSV errors gracefully.
 
 Project Structure
 
-├── user.py # Defines CSVUtils and User classes for user management and CSV operations
-├── atm.py  # Defines ATM class for user interface and transaction logic
-├── main.py # Primary entry point to run the ATM
-├── requirements.txt   # Lists dependencies
-├── users.csv          # Stores user data (created at runtime)
-├── transactions.csv   # Stores transaction data (created at runtime)
-├── README.md          # This file
+├── user.py 
+├── atm.py  
+├── main.py 
+├── requirements.txt   
+├── users.csv       
+├── transactions.csv  
+├── README.md         
 
 
 Uses Python standard library modules (csv, os, hashlib, re, datetime, typing).
