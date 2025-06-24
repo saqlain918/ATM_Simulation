@@ -12,20 +12,14 @@ Input Validation: Validates amounts (e.g., 10 or 10.50, max 10000.00) and accoun
 Error Handling: Handles invalid inputs, permissions, and CSV errors gracefully.
 
 Project Structure
-
-├── user.py 
-
-├── atm.py 
-
-├── main.py 
-
+Codes
+    ├─ user.py 
+    ├─ atm.py 
+    ├─ main.py 
+CSV_files
+    ├─ users.csv  
+    ├── transactions.csv  
 ├── requirements.txt  
-
-├── users.csv  
-
-├── transactions.csv  
-
 ├── README.md         
-
 
 Uses Python standard library modules (csv, os, hashlib, re, datetime, typing).
