@@ -1,8 +1,8 @@
-ATM Simulation Project
+# ATM Simulation Project
 
 This is a command-line ATM simulation implemented in Python, designed to manage user accounts and transactions using CSV files for persistent storage. The project supports user login, balance checks, deposits, withdrawals, transfers, PIN changes, soft account deletion, and transaction history viewing, with features like PIN uniqueness and transaction logging.
 
-Features
+# Features
 
 User Management: Stores user data (name, account number, hashed PIN, address, balance, deletion status) in users.csv.
 Transaction Logging: Records deposits, withdrawals, and transfers with timestamps and target accounts in transactions.csv.
@@ -12,7 +12,7 @@ Input Validation: Validates amounts (e.g., 10 or 10.50, max 10000.00) and accoun
 Error Handling: Handles invalid inputs, permissions, and CSV errors gracefully.
 PEP 8/257 Compliance: Follows Python style and docstring guidelines.
 
-Project Structure
+# Project Structure
 
 Codes
 
@@ -28,23 +28,26 @@ CSV_files
 ├── requirements.txt  
 ├── README.md         
 
-Prerequisites
+# Prerequisites
 
-Python: Version 3.6 or higher (3.8+ recommended, as used in PyCharm’s virtual environment).
+# Python: 
+Version 3.6 or higher (3.8+ recommended, as used in PyCharm’s virtual environment).
 
 No external dependencies: Uses Python standard library modules (csv, os, hashlib, re, datetime, typing).
 
-Operating System: Tested on Linux (e.g., Ubuntu); should work on Windows/Mac with path adjustments.
+# Operating System: 
+Tested on Linux (e.g., Ubuntu); should work on Windows/Mac with path adjustments.
 
-IDE : PyCharm for development and running.
+# IDE : 
+PyCharm for development and running.
 
-Setup Instructions
+# Setup Instructions:
 
-Clone the Repository:
+# Clone the Repository:
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
-Install Dependencies:
+# Install Dependencies:
 
 The requirements.txt as no external packages are needed.but other python libraries are mention.
 
@@ -54,10 +57,10 @@ Confirms standard library usage.
 
 Right-click project folder → Mark Directory as → Sources Root.
 
-Run the Program:
-Via PyCharm:
+# Run the Program:
+Via PyCharm
 
-Expected output:
+# Expected output:
 
 ✅ Initialized /path/to/your-repo-name/users.csv with 2 rows
 ✅ Initialized /path/to/your-repo-name/transactions.csv
