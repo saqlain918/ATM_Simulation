@@ -28,9 +28,7 @@ CSV_files
 ├── requirements.txt  
 ├── README.md         
 
-# Prerequisites
-
-# Python: 
+# Python version: 
 Version 3.6 or higher (3.8+ recommended, as used in PyCharm’s virtual environment).
 
 No external dependencies: Uses Python standard library modules (csv, os, hashlib, re, datetime, typing).
@@ -40,8 +38,6 @@ Tested on Linux (e.g., Ubuntu); should work on Windows/Mac with path adjustments
 
 # IDE : 
 PyCharm for development and running.
-
-# Setup Instructions:
 
 # Clone the Repository:
 git clone https://github.com/your-username/your-repo-name.git
