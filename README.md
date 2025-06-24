@@ -15,12 +15,15 @@ PEP 8/257 Compliance: Follows Python style and docstring guidelines.
 Project Structure
 
 Codes
+
     ├─ user.py 
     ├─ atm.py 
     ├─ main.py 
+
 CSV_files
     ├─ users.csv  
     ├── transactions.csv  
+
 ├── requirements.txt  
 ├── README.md         
 
