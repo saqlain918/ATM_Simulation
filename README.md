@@ -14,11 +14,17 @@ Error Handling: Handles invalid inputs, permissions, and CSV errors gracefully.
 Project Structure
 
 ├── user.py 
-├── atm.py  
+
+├── atm.py 
+
 ├── main.py 
-├── requirements.txt   
-├── users.csv       
+
+├── requirements.txt  
+
+├── users.csv  
+
 ├── transactions.csv  
+
 ├── README.md         
 
 
